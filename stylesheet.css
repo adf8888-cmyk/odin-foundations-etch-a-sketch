@@ -1,0 +1,50 @@
+body {
+    font-family: Roboto, sans-serif;
+
+
+    
+  } 
+
+  .sketch-section {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+
+  #sketch-container {
+    width: 600px;
+    height: 600px;
+
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .gridRow {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+
+  }
+  
+  .gridBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    padding: 0px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .gridBox:before {
+    content: '';
+    float: left;
+    padding-top: 100%;
+  }
