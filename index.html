@@ -7,12 +7,24 @@
     <title>Odin Etch a Sketch</title>
 </head>
 <body>
-
+    <div class="sketch-controls"> 
+        <div class="input-container-horizontal">
+            <label for="horizontalSizeInput">16 across</label>
+            <input id="horizontalSizeInput" type="range" min="4" max="100" value="16" />
+        </div>
+        <div class="input-container-vertical">
+            <label for="verticalSizeInput">16 down</label>
+            <input id="verticalSizeInput" type="range" min="4" max="100" value="16" />
+        </div>
+        <div class="input-container-button">
+            <button id="clear-button">Clear / Create</button>
+        </div>    
+    </div>
 
     <div class="sketch-section">
-        <div id="sketch-container"></div>  
-        
+        <div id="sketch-container"></div>     
     </div>    
+    
 </body>
 </html>
 <script src="./javascript.js"></script>

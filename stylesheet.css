@@ -5,7 +5,26 @@ body {
     
   } 
 
-  .sketch-section {
+
+  .sketch-controls {
+
+    align-items: center;   
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  
+    margin: 16px;
+    padding: 16px;
+
+  }
+
+ .input-container-horizontal, .input-container-vertical, .input-container-button {
+    margin: 8px;
+    padding: 8px;
+  
+ } 
+
+ .sketch-section {
 
     display: flex;
     align-items: center;
